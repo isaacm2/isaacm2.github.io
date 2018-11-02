@@ -42,6 +42,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
 }
+
 #logo{
     height: 50px;
     width: auto;
@@ -80,10 +81,6 @@ body {
     text-align: center;
 }
 
-.info{
-    font-weight: bold;
-}
-
 #current-temp{
     font-size: 50pt;
 }
@@ -101,6 +98,18 @@ body {
     list-style: none;
 }
 
+.boxed{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    
+    width: 50%;
+    border: 3px solid #000;
+    
+}
+
 #condition img{
     width: 80%;
 }
@@ -116,6 +125,17 @@ body {
     margin:auto;
 }
 
+nav a{
+    text-decoration: none;
+}
+
+nav li{
+    text-align: center;
+    display: inline;
+    padding: 1px 3px;
+}
+
+
 #templist{
     display: flex;
     flex-wrap: nowrap;
@@ -130,16 +150,6 @@ body {
     height: 50%;
     width: 50%;
     margin-bottom: 2em;
-}
-
-section{
-    background-color: rgba(200,200,200,.6);
-    margin: .2em auto;
-    border: 1px solid;
-    border-radius: 15px;
-    width: 50%;
-    margin: auto;
-    text-align: center;
 }
 
 footer {
@@ -187,17 +197,6 @@ footer {
         background-color: white;
     }
     
-    nav a{
-        text-decoration: none;
-    }
-    
-    nav li{
-        text-align: center;
-        display: inline;
-        padding: 1px 3px;
-    }
-    
-    
     #hightemp{
         font-size: 2em;
     }
@@ -210,6 +209,5 @@ footer {
         font-size: 1.5em;
         text-align: center;
     }
-    
     
     }
