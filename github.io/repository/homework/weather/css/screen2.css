@@ -42,15 +42,6 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 18px;
 }
-
- ul#navbar li {
-    display: inline-block;
-
-ul { 
-    list-style: none; 
-    padding-left: 0;
-}
-
 #logo{
     height: 50px;
     width: auto;
