@@ -92,6 +92,12 @@ ul {
     margin-left: 10px;
 }
 
+/* 3.1 Zipcode Elevation and Location sizing and centering */
+.zip{
+    font-size: 12px;
+    text-align: center;
+}
+
 .info{
     font-weight: bold;
 }
