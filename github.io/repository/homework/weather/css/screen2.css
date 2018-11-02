@@ -79,12 +79,6 @@ body{
     
 }
 
-.cur_wind, .cur_temp, .rain, {
-    visibility: hidden;
-    margin: 0;
-    line-height: 0;
-}
-
 #condition img{
     width: 80%;
 }
