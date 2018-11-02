@@ -15,9 +15,6 @@ html {
     box-sizing: border-box;
     margin-left: 5px;
    }
-*, *:before, *:after{
-    box-sizing: inherit;
-}
 
 /* 2.1 Typography Section */
 h1,h2,h3,h4,h5,h6{
