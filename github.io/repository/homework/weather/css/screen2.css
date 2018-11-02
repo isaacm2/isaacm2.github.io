@@ -60,25 +60,16 @@ body {
 
 /* 3. Mobile Rules */
 .site-brand {
-    font-size: 5vw;
-    font-weight: 600;
-    }
-
-#site-brand {
-    font-size: 1.7em;
-    font-weight: 600;
-}
-    
-#site-logo {
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
+    font-size: 18px;
 }
 
-/* 3.1 Zipcode Elevation and Location sizing and centering */
 .zip{
     font-size: 12px;
     text-align: center;
+}
+
+#tempfont{
+    font-size: 3em;
 }
 
 #current-temp{
