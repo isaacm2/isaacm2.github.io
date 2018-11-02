@@ -134,7 +134,6 @@ ul {
     margin:auto;
 }
 
-
 #templist{
     display: flex;
     flex-wrap: nowrap;
@@ -198,10 +197,24 @@ footer {
     }
     
     nav ul{
-        position: relative;
-        border: 1px solid;
-        margin-left: 70px;
+        position: fixed;
+        bottom: 0px;
+        display: flex;
+        justify-content: space-around;
+        width: 75%;
+        background-color: white;
     }
+    
+    nav a{
+        text-decoration: none;
+    }
+    
+    nav li{
+        text-align: center;
+        display: inline;
+        padding: 1px 3px;
+    }
+    
     
     #hightemp{
         font-size: 2em;
