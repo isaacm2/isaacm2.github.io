@@ -54,15 +54,15 @@ body{
     text-align: center;
 }
 
-#tempfont{
+#current-temp{
     font-size: 3em;
 }
 
-#hightemp{
+#high-temp{
     color: red;
 }
 
-#lowtemp{
+#low-temp{
     color: blue;
 }
 
