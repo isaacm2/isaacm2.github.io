@@ -1,0 +1,126 @@
+/* This is for screenned devices */
+
+/* 
+1. Imports are first
+2. General Style Rules 
+3. Mobile First Devices
+4. Large Screen Sizes (Media Query Required) */
+
+/* 1. Imports statemets */
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+@import url('/repository/homework/weather/css/normalize.css');
+/* 2. General Style Rules */
+/* Box Sizes */
+html {
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.tile{
+    background-color: rgba(200, 200, 200, 0.6);
+    width: 50%;
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+}
+/* 2.1 Typography Section */
+
+h1, h2, h3, h4, h5, h6{ 
+    font-family: sansita, sans-serif;
+    font-size: 2em;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+ ul#navbar li {
+    display: inline-block;
+ } 
+ dt, dd{
+    display: inline-block;
+}
+dt{
+    margin: 0;
+}
+dd{
+   margin-left: 0;
+   margin-right: 10px;
+}
+ul { 
+    list-style: none; 
+    padding-left: 0;
+}
+
+
+/* 3. Mobile Rules */
+.site-brand {
+    font-size: 5vw;
+    font-weight: 600;
+    }
+
+#site-brand {
+    font-size: 1.7em;
+    font-weight: 600;
+}
+    
+#site-logo {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.info{
+    font-weight: bold;
+}
+
+#current-temp{
+    font-size: 50pt;
+}
+
+#high-temp{
+    color: red;
+}
+    
+#low-temp{
+    color: blue;
+}
+    
+ #high-temp, #low-temp{
+    display: inline-block;
+    list-style: none;
+}
+
+#templist{
+    display: flex;
+    flex-flow: row wrap;
+    overflow-x: scroll;
+    list-style-type: none;  
+    font-size: 12px;  
+    margin: 5px;  
+}
+
+#rain {
+    flex-flow: wrap;      
+    height: 50%;
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+section{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* 4 Large Image Screens */
