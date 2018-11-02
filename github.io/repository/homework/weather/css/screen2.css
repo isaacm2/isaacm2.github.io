@@ -30,6 +30,7 @@ html {
     border-radius: 15px;
     text-align: center;
 }
+
 /* 2.1 Typography Section */
 
 h1, h2, h3, h4, h5, h6{ 
@@ -44,17 +45,7 @@ body {
 
  ul#navbar li {
     display: inline-block;
- } 
- dt, dd{
-    display: inline-block;
-}
-dt{
-    margin: 0;
-}
-dd{
-   margin-left: 0;
-   margin-right: 10px;
-}
+
 ul { 
     list-style: none; 
     padding-left: 0;
