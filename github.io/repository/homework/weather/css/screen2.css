@@ -121,11 +121,11 @@ ul {
 
 #templist{
     display: flex;
-    flex-flow: row wrap;
-    overflow-x: scroll;
-    list-style-type: none;  
-    font-size: 12px;  
-    margin: 5px;  
+    flex-wrap: nowrap;
+    list-style-type: none;
+    overflow: scroll;
+    width: auto; 
+    margin: 10px;  
 }
 
 #rain {
