@@ -41,20 +41,20 @@ body{
 .site-brand{
     font-size: 18px;
 }
-/* 3.1 Zipcode Elevation and Location sizing and centering */
+
 .zip{
     font-size: 12px;
     text-align: center;
 }
-/* 3.2 Temperature bigger size font for current temp */
+
 #tempfont{
     font-size: 3em;
 }
-/* 3.2.1 High temp colored red */
+
 #hightemp{
     color: red;
 }
-/* 3.2.2 Low temp colored blue  */
+
 #lowtemp{
     color: blue;
 }
