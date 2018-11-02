@@ -119,6 +119,22 @@ ul {
     list-style: none;
 }
 
+#condition img{
+    width: 80%;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+
 #templist{
     display: flex;
     flex-wrap: nowrap;
@@ -155,6 +171,7 @@ footer {
     width: 90%;
     border: 3px solid #000;
 }
+
 /* 4 Large Image Screens */
 @media screen and (min-width: 720px){
     /* All CSS rules for large screens go here. */
