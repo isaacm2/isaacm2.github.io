@@ -1,0 +1,177 @@
+/* This is for screened devices. */
+
+
+/* 1. Imports are First */
+/* 2. General Style Rules  */
+/* 3. Mobile First Devices */
+/* 4. Larger Screen Size (Media Query Required) */
+
+/* 1. Import Statements  */
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+ 
+/* 2. General Style Rules  */
+
+/* 2.1 Typography Section */
+h1,h2,h3,h4,h5,h6{
+    font-family: sansita, sans-serif;
+}
+
+body{
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#logo{
+    height: 50px;
+    width: auto;
+    margin-bottom: 0;
+    font-size: 2em;
+}
+
+#logotext{
+    padding-bottom: 75px;
+}
+
+#nogap{
+    margin-top: -1%; 
+}
+
+/* 3. Mobile Rules  */
+.site-brand{
+    font-size: 18px;
+}
+/* 3.1 Zipcode Elevation and Location sizing and centering */
+.zip{
+    font-size: 12px;
+    text-align: center;
+}
+/* 3.2 Temperature bigger size font for current temp */
+#tempfont{
+    font-size: 3em;
+}
+/* 3.2.1 High temp colored red */
+#hightemp{
+    color: red;
+}
+/* 3.2.2 Low temp colored blue  */
+#lowtemp{
+    color: blue;
+}
+
+.boxed{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    
+    width: 50%;
+    border: 3px solid #000;
+    
+}
+
+#condition img{
+    width: 80%;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+
+nav ul{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    background-color: white;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav li{
+    text-align: center;
+    display: inline;
+    padding: 1px 3px;
+}
+
+#hourlyforecast {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    overflow: scroll;
+    width: auto;
+
+}
+
+#hourlyforecast li {
+    margin: 10px;
+}
+
+footer {
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    
+    width: 90%;
+    border: 3px solid #000;
+}
+
+/* 4. Larger Screen Rules */
+@media screen and (min-width: 720px){
+/* All CSS rules for large screens go here. */
+#widebox {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.boxed {
+   width: 250px;  
+   height: 300px;
+   margin: 0px;
+}
+
+#tempfont {
+    font-size: 5em;
+}
+
+#condition img{
+    width: 100%;
+}
+
+nav ul{
+    position: relative;
+    border: 1px solid;
+    margin-left: 70px;
+}
+
+#hightemp{
+    font-size: 2em;
+}
+
+#lowtemp{
+    font-size: 2em;
+}
+
+.zip{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+}
