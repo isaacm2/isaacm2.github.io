@@ -51,10 +51,9 @@ h1 {
 
 .page-header {
 	background-image: url('/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_small.jpg');
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	position: fixed; 
+  	top: 0; 
+  	left: 0; 
 }
 /*******************************
 * Page Navigation Styles
