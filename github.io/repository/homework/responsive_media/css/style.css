@@ -52,8 +52,8 @@ h1 {
 .page-header {
 	background-image: url('/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_small.jpg');
 	background-size: cover;
-	position: absolute;
-	height: 20%;
+	padding: 0;
+	
 	margin: auto;
 }
 /*******************************
