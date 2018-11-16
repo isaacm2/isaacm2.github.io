@@ -1,0 +1,54 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+}
+.box
+{
+    padding: 25px;
+    border-radius: 15px;
+    border: 3px solid #000;
+    
+}
+
+.large{
+    display: none;
+}
+.small{
+    display: initial
+}
+img{
+    width: 100%;
+    
+}
+ul {
+    /* text-align: center; */
+    margin-top: 2px;
+    /* text-align: left; */
+    padding:0;
+    width: auto;
+    font-size: 3vw;
+    
+}
+section{
+    border: 1px solid black;
+    margin: 3px;
+    text-align: center;
+    padding: 5px;
+    width: 45%
+}
+footer{
+    margin-top: 15px;
+}
+@media screen and (min-width: 400px){
+    .large{
+        display: initial;
+    }
+    .small{
+        display: none;
+    }
+    section{
+        font-size: 12px;
+    }
+}
