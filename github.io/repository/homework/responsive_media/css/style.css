@@ -50,7 +50,7 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-	background-image: url('/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_medium.jpg');
+	background-image: url('github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_large.jpg');
 	background-size: cover;
 	padding: 0;
 	margin: auto;
