@@ -48,10 +48,94 @@ body{
 .site-brand{
     font-size: 18px;
 }
-
+/* 3.1 Zipcode Elevation and Location sizing and centering */
 .zip{
     font-size: 12px;
     text-align: center;
+}
+
+/* 3.2 Temperature bigger size font for current temp */
+#tempfont{
+    font-size: 3em;
+}
+/* 3.2.1 High temp colored red */
+#hightemp{
+    color: red;
+}
+/* 3.2.2 Low temp colored blue  */
+#lowtemp{
+    color: blue;
+}
+
+.boxed{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    
+    width: 50%;
+    border: 3px solid #000;
+    
+}
+
+#condition img{
+    width: 80%;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+
+nav ul{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    background-color: white;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav li{
+    text-align: center;
+    display: inline;
+    padding: 1px 3px;
+}
+
+#hourlyforecast {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    overflow: scroll;
+    width: auto;
+
+}
+
+#hourlyforecast li {
+    margin: 10px;
+}
+
+footer {
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    
+    width: 90%;
+    border: 3px solid #000;
 }
 
 #current-temp{
@@ -201,11 +285,6 @@ nav ul{
 }
 .sw{
     transform: rotate(225deg);
-
-.zip{
-    font-size: 1.5em;
-    text-align: center;
 }
-
 
 }
