@@ -177,6 +177,31 @@ nav ul{
     font-size: 2em;
 }
 
+/* Wind direction rules */
+.n{
+    transform: rotate(0deg);
+}
+.s{
+    transform: rotate(180deg);
+}
+.e{
+    transform: rotate(90deg);
+}
+.w{
+    transform: rotate(270deg);
+}
+.nw{
+    transform: rotate(315deg);
+}
+.ne{
+    transform: rotate(45deg);
+}
+.se{
+    transform: rotate(135deg);
+}
+.sw{
+    transform: rotate(225deg);
+
 .zip{
     font-size: 1.5em;
     text-align: center;
