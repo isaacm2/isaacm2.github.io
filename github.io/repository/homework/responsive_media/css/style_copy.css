@@ -184,7 +184,7 @@ h1 {
 	}
 	/*	Background Images - Use with medium screens */
 	.page-header {
-		background-image: url(../images/grand-canyon-medium.jpg)
+		background-image: url(../images/grand-canyon-medium.jpg);
 	}
 	/*this gets the logo to the top right*/
 	#logo {
