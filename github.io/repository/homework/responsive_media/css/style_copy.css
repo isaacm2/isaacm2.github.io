@@ -50,7 +50,7 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped.jpg);
+	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_small.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_small.png);
 	/* background-position: center; */
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -62,7 +62,18 @@ h1 {
 }
 
 
-
+/*	Background Images - Use with large screens */
+.page-header {
+	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_large.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_large.png);
+}
+.page-nav li {
+	flex: 0 1 10%;
+}
+.main {
+	max-width: 80%;
+	padding-right: 2em;
+	padding-left: 2em;
+}
 
 
 /*******************************
@@ -234,16 +245,5 @@ h1 {
 		font-size: 3em;
 		line-height: 1.05;
 	}
-	/*	Background Images - Use with large screens */
-	.page-header {
-		background-image: url(../images/grand-canyon-large.jpg)
-	}
-	.page-nav li {
-		flex: 0 1 10%;
-	}
-	.main {
-		max-width: 80%;
-		padding-right: 2em;
-		padding-left: 2em;
-	}
+	
 }
