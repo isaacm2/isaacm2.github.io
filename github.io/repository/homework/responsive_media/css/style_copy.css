@@ -50,7 +50,7 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-	background-image: url(/github.io/repository/homework/responsive_media/raw-images/bridge_medium.jpg), url(../images/grand-canyon-small.jpg);
+	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped.jpg);
 	/* background-position: center; */
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -206,7 +206,7 @@ h1 {
 		width: 50%;
 	}
 	.featured-video {
-		float: left;
+		float: none;
 		display: inline-block;
 		width: 50%;
 		height: auto;
