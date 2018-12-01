@@ -76,9 +76,8 @@ h1 {
 	padding-left: 2em;
 }
 
-.page-nav li {
-	flex: 0 1 10%;
-}
+
+
 
 .page-nav {
 	background-color: rgb(0, 0, 0);
@@ -99,7 +98,7 @@ h1 {
 }
 
 .page-nav li {
-	flex: 1;
+	flex:  0 1 10%;;
 	display: flex;
 	justify-content: center;
 }
@@ -195,7 +194,7 @@ h1 {
 	}
 	/*	Background Images - Use with medium screens */
 	.page-header {
-		background-image: url(../images/grand-canyon-medium.jpg);
+		background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_medium.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_medium.png);
 	}
 	/*this gets the logo to the top right*/
 	#logo {
