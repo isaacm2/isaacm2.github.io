@@ -1,6 +1,4 @@
-/********************************
-* Default Styles - Mobile First
-********************************/
+/* Default Styles - Mobile First*/
 
 body {
 	font-family: sans-serif;
@@ -32,7 +30,7 @@ h6 {
 	display: flex;
 	flex-flow: column;
 	flex-wrap: nowrap;
-	padding: .5em;
+	padding: .5em; 
 }
 
 h1 {
@@ -41,24 +39,17 @@ h1 {
 }
 
 
-/*******************************
-* Page Header Styles
-* Background Image
-*******************************/
-
-
+/* Page Header Styles
+* Background Image*/
 /*	Background Images - use with Small screens */
 
 .page-header {
-	background-image: url('github.io/repository/homework/responsive_media/raw-images/looking_down_large.jpg');
-	background-size: cover;
-	padding: 0;
-	margin: auto;
+	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_small.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_small.png);
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
-/*******************************
-* Page Navigation Styles
-*******************************/
-
+/* Page Navigation Styles */
 .page-nav {
 	background-color: rgb(0, 0, 0);
 	position: fixed;
@@ -78,7 +69,7 @@ h1 {
 }
 
 .page-nav li {
-	flex: 1;
+	flex:  0 1 10%;;
 	display: flex;
 	justify-content: center;
 }
@@ -96,12 +87,10 @@ h1 {
 /********************************
 * Main Content Styles
 ********************************/
-
 .main {
-	font-size: 1em;
-	line-height: 1.25;
-	margin: 0 auto;
-	position: relative;
+	max-width: 80%;
+	padding-right: 2em;
+	padding-left: 2em;
 }
 
 .featured-image {
@@ -128,9 +117,7 @@ h1 {
 }
 
 
-/*******************************
-* Page Footer Styles
-*******************************/
+/* Page Footer Styles*/
 
 .page-footer {
 	background-color: rgba(0, 0, 0, .8);
@@ -158,11 +145,8 @@ h1 {
 	font-size: .8em;
 }
 
-
-/********************************
-* Medium Screen Styles
-* 750px viewport / 18px font = 41.67em
-********************************/
+/* Medium Screen Styles
+* 750px viewport / 18px font = 41.67em*/
 
 @media (min-width: 41.67em) {
 	body {
@@ -173,7 +157,14 @@ h1 {
 		line-height: 1.125;
 	}
 	/*	Background Images - Use with medium screens */
-	.page-header {}
+	.page-header {
+		background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_medium.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_medium.png);
+	}
+	/*this gets the logo to the top right*/
+	#logo {
+		float: right;
+		margin-top: -100px;
+	}
 	.page-nav {
 		position: relative;
 	}
@@ -189,7 +180,7 @@ h1 {
 		width: 50%;
 	}
 	.featured-video {
-		float: left;
+		float: none;
 		display: inline-block;
 		width: 50%;
 		height: auto;
@@ -203,11 +194,8 @@ h1 {
 	}
 }
 
-
-/********************************
-* Large Screen Styles
-* 1200px viewport / 18px font = 66.7em
-********************************/
+/* Large Screen Styles
+* 1200px viewport / 18px font = 66.7em */
 
 @media (min-width: 66.7em) {
 	body {
@@ -217,14 +205,10 @@ h1 {
 		font-size: 3em;
 		line-height: 1.05;
 	}
+
 	/*	Background Images - Use with large screens */
-	.page-header {}
-	.page-nav li {
-		flex: 0 1 10%;
-	}
-	.main {
-		max-width: 80%;
-		padding-right: 2em;
-		padding-left: 2em;
-	}
+.page-header {
+	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_large.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_large.png);
+}
+
 }
