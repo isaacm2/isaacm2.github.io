@@ -66,19 +66,19 @@ h1 {
 .page-header {
 	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_large.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_large.png);
 }
-.page-nav li {
-	flex: 0 1 10%;
-}
+
+/*******************************
+* Page Navigation Styles
+*******************************/
 .main {
 	max-width: 80%;
 	padding-right: 2em;
 	padding-left: 2em;
 }
 
-
-/*******************************
-* Page Navigation Styles
-*******************************/
+.page-nav li {
+	flex: 0 1 10%;
+}
 
 .page-nav {
 	background-color: rgb(0, 0, 0);
