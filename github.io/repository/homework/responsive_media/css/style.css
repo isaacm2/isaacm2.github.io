@@ -88,9 +88,10 @@ h1 {
 * Main Content Styles
 ********************************/
 .main {
-	max-width: 80%;
-	padding-right: 2em;
-	padding-left: 2em;
+	font-size: 1em;
+	line-height: 1.25;
+	margin: 0 auto;
+	position: relative;
 }
 
 .featured-image {
