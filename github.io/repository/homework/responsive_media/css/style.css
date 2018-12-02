@@ -45,9 +45,9 @@ h1 {
 
 .page-header {
 	background-image: url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_small.png), url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_small.jpg);
-	/* background-position: center; */
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: auto, 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: right , top left;	
 }
 /* Page Navigation Styles */
 .page-nav {
