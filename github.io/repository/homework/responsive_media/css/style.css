@@ -184,7 +184,7 @@ h1 {
 		width: 50%;
 	}
 	.featured-video {
-		float: none;
+		float: main-title;
 		display: inline-block;
 		width: 50%;
 		height: auto;
