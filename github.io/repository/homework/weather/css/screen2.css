@@ -88,7 +88,7 @@ body{
     margin-bottom: 75px;
 }
 
-/*#circle {
+/#circle {
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -97,7 +97,7 @@ body{
     align-items: center;
     justify-content: center;
     margin:auto;
-}*/
+}
 
 #dial {
     height: 100px;
