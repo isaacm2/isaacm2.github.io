@@ -217,5 +217,13 @@ h1 {
 	background-repeat: no-repeat, no-repeat;
 	background-size: auto, cover;
 }
+.page-nav li {
+	flex: 0 1 10%;
+}
+.main {
+	max-width: 80%;
+	padding-right: 2em;
+	padding-left: 2em;
+}
 
 }
