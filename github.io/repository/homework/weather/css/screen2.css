@@ -111,6 +111,32 @@ body{
     margin: -.6em auto 0;
    }
 
+.n {
+    transform: rotate(0deg);
+}
+.ne {
+    transform: rotate(45deg);
+}
+.e{
+    transform: rotate(90deg);
+}
+.se{
+    transform: rotate(135deg);
+}
+.s{
+    transform: rotate(180deg);
+}
+.sw{
+    transform: rotate(225deg);
+}
+.w{
+    transform: rotate(270deg);
+}
+.nw{
+    transform: rotate(315deg);
+}
+
+
 nav ul{
     position: fixed;
     bottom: 0px;
