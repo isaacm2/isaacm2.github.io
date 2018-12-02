@@ -159,7 +159,11 @@ h1 {
 	/*	Background Images - Use with medium screens */
 	.page-header {
 		background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_medium.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_medium.png);
+		background-position: right, center;
+		background-repeat: no-repeat, no-repeat;
+		background-size: auto, cover;	
 	}
+
 	/*this gets the logo to the top right*/
 	#logo {
 		float: right;
@@ -209,6 +213,9 @@ h1 {
 	/*	Background Images - Use with large screens */
 .page-header {
 	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_large.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_large.png);
+	background-position: right, center;
+	background-repeat: no-repeat, no-repeat;
+	background-size: auto, cover;
 }
 
 }
