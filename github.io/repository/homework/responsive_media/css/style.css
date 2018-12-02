@@ -44,7 +44,7 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-	background-image: url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_small.jpg), url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_small.png);
+	background-image: url(/github.io/repository/homework/responsive_media/raw-images/nps-logo_small.png), url(/github.io/repository/homework/responsive_media/raw-images/looking_down_cropped_small.jpg);
 	/* background-position: center; */
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -163,12 +163,7 @@ h1 {
 		background-repeat: no-repeat, no-repeat;
 		background-size: auto, cover;	
 	}
-
-	/*this gets the logo to the top right*/
-	#logo {
-		float: right;
-		margin-top: -100px;
-	}
+	
 	.page-nav {
 		position: relative;
 	}
