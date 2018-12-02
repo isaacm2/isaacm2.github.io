@@ -83,6 +83,11 @@ body{
     width: 80%;
 }
 
+#windSpeed{
+    margin-top: -60px;
+    margin-bottom: 75px;
+}
+
 #circle {
     height: 100px;
     width: 100px;
@@ -287,4 +292,36 @@ nav ul{
     transform: rotate(225deg);
 }
 
+.boxed {
+    width: 250px;  
+    height: 300px;
+    margin: 0px;
+ }
+ 
+ #tempfont {
+     font-size: 5em;
+ }
+ 
+ #condition img{
+     width: 100%;
+ }
+ 
+ nav ul{
+     position: relative;
+     border: 1px solid;
+     margin-left: 70px;
+ }
+ 
+ #hightemp{
+     font-size: 2em;
+ }
+ 
+ #lowtemp{
+     font-size: 2em;
+ }
+ 
+ .zip{
+     font-size: 1.5em;
+     text-align: center;
+ }
 }
