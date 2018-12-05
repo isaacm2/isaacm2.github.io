@@ -95,53 +95,49 @@ body{
     margin:auto;
 }
 
-#dial {
-    padding: 60px;
-    background-image: url('../images/optimized-imgs/wind-pointer.png');
+#dial{
+    font-size: 3em;
+    background-image: url(/weather/weather-images/wind-pointer.png);
     background-repeat: no-repeat;
-    background-size: 120px;
+    background-size: 200px;
     background-position: center;
+    height: 150px;
+    padding-top: 75px;
+    width: 200px;
+    margin: 0 auto;
 }
-
-#wind {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: center;
-    justify-content: space-between;
+#speed{
+    position: relative;
+    top: -190px;
+    font-size: 2em;
 }
-
-#windSpeed{
-    margin-top: -60px;
-    margin-bottom: 75px;
-}
-
-
 
 /* Wind Directions */
-.n {
+.n{
     transform: rotate(0deg);
-}
-.ne {
+    }
+    .ne{
     transform: rotate(45deg);
-}
-.e {
+    }
+    .e{
     transform: rotate(90deg);
-}
-.se {
+    }
+    .se{
     transform: rotate(135deg);
-}
-.s {
+    }
+    .s{
     transform: rotate(180deg);
-}
-.sw {
+    }
+    .sw{
     transform: rotate(225deg);
-}
-.w {
+    }
+    .w{
     transform: rotate(270deg);
-}
-.nw {
+    }
+    .nw{
     transform: rotate(315deg);
-}
+    }
+    
 
 /* 2.7 RAIN container */
 #summary {
