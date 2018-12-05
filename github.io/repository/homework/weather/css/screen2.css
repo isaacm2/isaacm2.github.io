@@ -106,7 +106,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: auto;
-    background: no-repeat center/85% url('/github.io/repository/homework/weather/images/wind-pointer.png');
+    background: no-repeat center/85% url('/weather/images/wind-pointer.png');
     z-index: 100;
     margin: -.6em auto 0;
    }
