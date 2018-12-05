@@ -99,17 +99,59 @@ body{
     margin:auto;
 }
 
-#dial {
-    height: 100px;
-    width: 100px;
+/* 3.3 Wind Container */
+#wind {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    background: no-repeat center/85% url('/weather/images/wind-pointer.png');
-    z-index: 100;
-    margin: -.6em auto 0;
-   }
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#dial {
+    padding: 60px;
+    background-image: url('../images/optimized-imgs/wind-pointer.png');
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: center;
+}
+
+#wind-speed {
+    position: relative;
+    top: -90px;
+}
+
+/* Wind Directions */
+.n {
+    transform: rotate(0deg);
+}
+.ne {
+    transform: rotate(45deg);
+}
+.e {
+    transform: rotate(90deg);
+}
+.se {
+    transform: rotate(135deg);
+}
+.s {
+    transform: rotate(180deg);
+}
+.sw {
+    transform: rotate(225deg);
+}
+.w {
+    transform: rotate(270deg);
+}
+.nw {
+    transform: rotate(315deg);
+}
+
+/* 2.7 RAIN container */
+#summary {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 
    nav ul{
     position: fixed;
@@ -230,46 +272,6 @@ footer {
     width: 80%;
 }
 
-/* Wind direction rules */
-.n{
-    transform: rotate(0deg);
-}
-.s{
-    transform: rotate(180deg);
-}
-.e{
-    transform: rotate(90deg);
-}
-.w{
-    transform: rotate(270deg);
-}
-.nw{
-    transform: rotate(315deg);
-}
-.ne{
-    transform: rotate(45deg);
-}
-.se{
-    transform: rotate(135deg);
-}
-.sw{
-    transform: rotate(225deg);
-}
-
-.boxed {
-    width: 250px;  
-    height: 300px;
-    margin: 0px;
- }
- 
- #tempfont {
-     font-size: 5em;
- }
- 
- #condition img{
-     width: 100%;
- }
- 
  nav ul{
      position: relative;
      border: 1px solid;
