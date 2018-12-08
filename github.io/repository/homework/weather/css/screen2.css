@@ -44,6 +44,34 @@ body{
     margin-top: -1%; 
 }
 
+/* 2.2 JavaScript Rules */
+.hide {
+    display: none;
+}
+
+.show {
+    display: initial;
+}
+
+.tile {
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+/* 2.2 Locname and Locinfo rules */
+#locInfo ul {
+    display: flex;
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+#locInfo ul li {
+    padding-right: 5px;
+}
+
 /* 3. Mobile Rules  */
 .site-brand{
     font-size: 18px;
@@ -134,7 +162,7 @@ body{
     transform: rotate(315deg);
 }
 
-/* 2.7 RAIN container */
+/* 3.4 Rain container */
 #summary {
     font-weight: bold;
     font-size: 1.5em;
