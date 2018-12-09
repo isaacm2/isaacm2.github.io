@@ -76,6 +76,12 @@ body{
 .site-brand{
     font-size: 18px;
 }
+
+#logoAcu {
+    display: flex;
+    align-items: center;
+}
+
 /* 3.1 Zipcode Elevation and Location sizing and centering */
 .zip{
     font-size: 12px;
